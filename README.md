@@ -8,21 +8,33 @@ Prerequisitos
 
 Contar con los siguientes software instalados:
 
-Visual Studio Code
-Node
-MySql Workbench
-Postman
-Instalación
+Visual Studio Code,
+
+Node,
+
+MySql Workbench,
+
+Postman,
+
+Instalación,
+
 
 Iniciar en  MySQLWorckbench una nueva conexion
 
-Connection Name:Dalillah
-Connextion Method: Standard (TCP/IP)
-Hostname: remotemysql.com
-Port: 3306
-Username: dIUBrVGCAr
-Password:maaxRJdiuz
-Default Schema: dIUBrVGCAr
+Connection Name:Dalillah,
+
+Connextion Method: Standard (TCP/IP),
+
+Hostname: remotemysql.com,
+
+Port: 3306,
+
+Username: dIUBrVGCAr,
+
+Password:maaxRJdiuz,
+
+Default Schema: dIUBrVGCAr,
+
 
 Desde la ventana "Query1" para ejecutar las sentencias de sql ejecutar las sentencias del archivo script "SQL-creacionDB.txt".
 Luego, tambien desde la ventana "Query1" ejecutar las sentencias de sql del archivo "SQL agregar platos y admin txt" .
@@ -52,15 +64,19 @@ Para probar los endpoints es necesario loggear un Usuario primero ya que todos l
 ENTRE OTROS ENDPOINTS A PROBAR
 
 - Registro de usuario nuevo
+
 POST localhost:3000/registrar
 
-- Login de usuario/
+- Login de usuario
+
 POST localhost:3000/login
 
 - Obtener todos los platos
+
 GET localhost:3000/platos
 
 - Realizar un pedido
+
 POST localhost:3000/pedidos
 
 Ejemplo de body:
@@ -79,17 +95,22 @@ Ejemplo de body:
 GET localhost:3000/pedidos
 
 - Obtener todos los USUARIOS / para admin
+
 GET localhost:3000/usuarios
 
 - Modificar un plato/ para admin
+
 PUT localhost:3000/platos/id
 
 - Cambiar el Estado de un pedido / para admin
+
 PUT localhost:3000/pedidos/cambiarEstado/id
 
 - Agregar un plato/ para admin
+
 POST localhost:3000/platos
 
 - ELIMINAR un plato/ para admin
+
 DELETE localhost:3000/platos/id
 
