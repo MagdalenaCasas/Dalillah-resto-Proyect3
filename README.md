@@ -76,29 +76,29 @@ Ejemplo de body:
 
 
 - Obtener todos los pedidos / para admin
-- 
+
 GET localhost:3000/pedidos
 
 - Obtener todos los USUARIOS / para admin
-- 
+ 
 GET localhost:3000/usuarios
 
 - Modificar un plato/ para admin
-- 
+ 
 PUT localhost:3000/platos/id
 
 - Cambiar el Estado de un pedido / para admin
-- 
+
 PUT localhost:3000/pedidos/cambiarEstado/id
 
 - Agregar un plato/ para admin
-- 
+
 POST localhost:3000/platos
 
 - ELIMINAR un plato/ para admin
-- 
+
 DELETE localhost:3000/platos/id
 
 - ELIMINAR un pedido/ para admin
-- 
+
 DELETE localhost:3000/pedidos/id
