@@ -93,3 +93,5 @@ POST localhost:3000/platos
 - ELIMINAR un plato/ para admin
 DELETE localhost:3000/platos/id
 
+- ELIMINAR un pedido/ para admin
+DELETE localhost:3000/pedidos/id
